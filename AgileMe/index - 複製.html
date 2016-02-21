@@ -44,69 +44,9 @@
 <!-- end of google +1 button -->
 <body>
     <header role="banner">
-
-        <div id="header" class="collapse navbar-collapse" style="background-color:#F60;">
-            <!-- InstanceBeginEditable name="EditRegion6" -->
-            <link type="text/css" href="./css/skitter.styles.css" media="all" rel="stylesheet" />
-            <script type="text/javascript" src="./js/jquery.easing.1.3.js"></script>
-            <script type="text/javascript" src="./js/jquery.animate-colors-min.js"></script>
-            <script type="text/javascript" src="./js/jquery.skitter.min.js"></script>
-            <script type="text/javascript" language="JavaScript">
-                $(document).ready(function () {
-                    $('.box_skitter_large').skitter({
-                        theme: 'clean',
-                        animateNumberActive: { backgroundColor: '#FFF', color: '#FFF' },
-                        animateNumberOut: { backgroundColor: '#FFF', color: '#FFF' },
-                        animateNumberOver: { backgroundColor: '#FFF', color: '#FFF' },
-                        dots: false,
-                        preview: true,
-                        interval: 18000,
-                        label: false,
-                        numbers: false,
-                        progressbar: false,
-                        stop_over: true,
-                        velocity: 2,
-                        width_label: '300px',
-                        numbers_align: 'center',
-                        show_randomly: false
-                    });
-                });
-            </script>
-            <table>
-                <tr>
-                    <td style="width:100%; text-align:center;">
-                        <div class="box_skitter box_skitter_large skitter-clean">
-                            <ul style="display: none;text-align:center;">
-                                <li>
-                                    <a href="#cut"><img src="./pictures/title_01.jpg" class="cut" /></a>
-                                    <div class="label_text"><p></p></div>
-                                </li>
-                                <li>
-                                    <a href="#swapBlocks"><img src="./pictures/title_02.jpg" class="swapBlocks" /></a>
-                                    <div class="label_text"><p></p></div>
-                                </li>
-                                <li>
-                                    <a href="#swapBarsBack"><img src="./pictures/title_03.jpg" class="swapBarsBack" /></a>
-                                    <div class="label_text"><p></p></div>
-                                </li>
-                            </ul>
-                            <a href="#" class="prev_button" style="display: block;">prev</a>
-                            <a href="#" class="next_button" style="display: block;">next</a>
-                            <span class="info_slide" style="display: none; left: 452px;">
-                                <span class="image_number" rel="0" id="image_n_1_0" style="color: rgb(255, 255, 255); background-color: rgb(255, 255, 255);">1</span>
-                                <span class="image_number image_number_select" rel="1" id="image_n_2_0" style="color: rgb(255, 255, 255); background-color: rgb(255, 255, 255);">2</span>
-                                <span class="image_number" rel="2" id="image_n_3_0" style="color: rgb(255, 255, 255); background-color: rgb(255, 255, 255);">3</span>
-                            </span>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-            <!-- InstanceEndEditable -->
-        </div>
-
         <div class="navbar clearfix row ">
-            <div class="container-header">
-                <div class="col-xs-2">
+            <div class="container-header col-md-offset-3 col-md-6 col-md-offset-3 ">
+                <div class="col-xs-3">
                     <a href="/"><img src="pictures/agileme_logo3.png" alt="AgileMe 台灣敏捷專家協會" style="height:45px;margin-top:6px;" /></a>
                 </div>
                 <div class="navbar-header">
@@ -115,30 +55,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <!--<a class="col-xs-2 navbar-brand visible-xs" href="/">
+                    <!--<a class="navbar-brand visible-xs" href="/">
                         <img src="pictures/agileme_logo3.png" alt="AgileMe 台灣敏捷專家協會" style="height:45px;width:139px;margin-top:6px;" />
                     </a>-->
                 </div>
-                <div id="menuList" class="col-xs-10 collapse navbar-collapse navbar-responsive-collapse">
+                <div id="menuList" class="collapse navbar-collapse navbar-responsive-collapse">
                     <ul id="menu-main-menu" class="nav navbar-nav">
-                        <li id="menu-item-31" class="dropdown menuItem menu-item-type-post_type menu-item-object-page">
-                            <a href="./about.html" class="dropdown-toggle" data-toggle="dropdown"><h4><b>關於我們</b> <span class="caret"></span></h4></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="value.html">策略與價值</a></li>
-                                <li><a href="organization.html">組織圖</a></li>
-                                <li><a href="application.html">會員申請</a></li>
-                            </ul>
-                        </li>
-                        <li id="menu-item-32" class="dropdown menuItem menu-item-type-post_type menu-item-object-page">
-                            <a href="./training.html" class="dropdown-toggle" data-toggle="dropdown"><h4><b>訓練課程</b> <span class="caret"></span></h4></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="./courses/PMI-ACP.html">PMI-ACP®</a></li>
-                                <li><a href="./courses/PMI-PBA.html">PMI-PBA®</a></li>
-                                <li><a href="./courses/IIBA%20CBAP.html">IIBA CBAP®</a></li>
-                                <li><a href="./courses/others.html">PDU Renew</a></li>
-                                <li><a href="./shares.html" target="_new">上課心得分享</a></li>
-                            </ul>
-                        </li>
+                        <li id="menu-item-31" class="menuItem menu-item-type-post_type menu-item-object-page"><a href="./about.html"><h4><b>關於我們</b></h4></a></li>
+                        <li id="menu-item-32" class="menuItem menu-item-type-post_type menu-item-object-page"><a href="./training.html"><h4><b>訓練課程</b></h4></a></li>
                         <li id="menu-item-33" class="menuItem menu-item-type-post_type menu-item-object-page"><a href="./services.html"><h4><b>諮詢服務</b></h4></a></li>
                         <li id="menu-item-34" class="menuItem menu-item-type-post_type menu-item-object-page"><a href="./reports.html"><h4><b>活動報導</b></h4></a></li>
                         <li id="menu-item-35" class="menuItem menu-item-type-post_type menu-item-object-page"><a href="./info.html"><h4><b>好文分享</b></h4></a></li>
@@ -151,7 +75,7 @@
 
     <section>
         <div class="clearfix row">
-            <div class="text-center">
+            <div class="col-md-offset-3 col-md-6 col-md-offset-3 text-center">
                 <div class="col-sm-4">
                     <p><img src="./pictures/image_01.png" alt="core competence" width="168" height="168" /></p><br />
                     <p class="subject-title">核心能力</p><br />
@@ -182,26 +106,25 @@
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="clearfix row">
-            <div class="col-sm-12 text-center">
-                <p>
-                    <h3>最新消息：恭賀台灣敏捷專家協會取得 <a href="./report/report_025.html" style="color:blue;font-size:large;" target="_new">IIBA EEP®</a> 認證教育機構</h3>
-                </p>
-                <p>
-                    <a href="./courses/BABOK_E3.html"><img src="./pictures/babokManual_150X150.gif" width="150" height="150" alt="BABOK III" /></a>
-                </p>
-                <footer>
-                    <p class="attribution">
-                        台灣敏捷專家協會 Taiwan Agile Expert Association. All Right Reserved.
-                        <br />
-                        地址：台北市重慶南路一段10號10樓1008室 電話：02-2388 2077<br />
-                        郵箱：<a href="mailto:services@agileme.org.tw" target="_new" style="font-weight: normal; color: #006;">services@agileme.org.tw</a>
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6 col-md-offset-3 text-center">
+                    <p>
+                        <h3>最新消息：恭賀台灣敏捷專家協會取得 <a href="./report/report_025.html" style="color:blue;font-size:large;" target="_new">IIBA EEP®</a> 認證教育機構</h3>
                     </p>
-                </footer>
+                    <p>
+                        <a href="./courses/BABOK_E3.html"><img src="./pictures/babokManual_150X150.gif" width="150" height="150" alt="BABOK III" /></a>
+                    </p>
+                    <footer>
+                        <p class="attribution">
+                            台灣敏捷專家協會 Taiwan Agile Expert Association. All Right Reserved.
+                            <br />
+                            地址：台北市重慶南路一段10號10樓1008室 電話：02-2388 2077<br />
+                            郵箱：<a href="mailto:services@agileme.org.tw" target="_new" style="font-weight: normal; color: #006;">services@agileme.org.tw</a>
+                        </p>
+                    </footer>
+                </div>
             </div>
         </div>
-
     </section>
     <!-- InstanceEnd -->
 </body>

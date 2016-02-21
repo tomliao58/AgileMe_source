@@ -66,8 +66,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\agileme-main.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="index - 複製.html" />
+    <Content Include="index.html" />
+    <Content Include="index-old.html" />
     <Content Include="packages.config" />
     <Content Include="CNAME" />
+    <Content Include="css\bootstrap-theme.css.map" />
+    <Content Include="css\bootstrap.css.map" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -84,7 +99,6 @@
     <Content Include="images\sprite-minimalist.png" />
     <Content Include="images\sprite-round.png" />
     <Content Include="images\sprite-square.png" />
-    <Content Include="index.html" />
     <Content Include="js\jquery-2.1.1.min.js" />
     <Content Include="js\jquery.animate-colors-min.js" />
     <Content Include="js\jquery.easing.1.3.js" />
@@ -94,6 +108,9 @@
     <Content Include="pictures\2.png" />
     <Content Include="pictures\3.png" />
     <Content Include="pictures\8.png" />
+    <Content Include="pictures\agileme_logo.png" />
+    <Content Include="pictures\agileme_logo2.png" />
+    <Content Include="pictures\agileme_logo3.png" />
     <Content Include="pictures\babokManual_150X150.gif" />
     <Content Include="pictures\IIBA-Endorsed-Education-logo_final_2011.jpg" />
     <Content Include="pictures\image_01.png" />
@@ -103,8 +120,14 @@
     <Content Include="pictures\title_02.jpg" />
     <Content Include="pictures\title_03.jpg" />
     <None Include="Scripts\_references.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
     <Content Include="SpryAssets\SpryMenuBar.js" />
+    <Content Include="SpryAssets\SpryMenuBarDown.gif" />
+    <Content Include="SpryAssets\SpryMenuBarDownHover.gif" />
     <Content Include="SpryAssets\SpryMenuBarHorizontal.css" />
+    <Content Include="SpryAssets\SpryMenuBarRight.gif" />
+    <Content Include="SpryAssets\SpryMenuBarRightHover.gif" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>

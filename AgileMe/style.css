@@ -1,244 +1,134 @@
-#header {
-	height: 400px;
-	width: 1004px;
-	background-color: #FFF;
-	margin: auto;
-	background-repeat: no-repeat;
-}
-#hearlink {
-	height: 55px;
-	width: 1004px;
-	background-repeat: no-repeat;
-	background-color: #F60;
-	margin: auto;
-	padding: 0px;
-}
-
-
-#header p {
-	margin: 0px;
-	background-color: #F60;
-}
-#content #contentR table p {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	text-align: left;
-	background-color: #FFF;
-}
 .h3 {
-	line-height: 2em;
-	color: #009;
-	margin: 0px;
-}
-.icon1 {
-	line-height: 2em;
-	background-position: center;
-	margin-top: 0px;
-	list-style-type: none;
-	list-style-position: outside;
-	list-style-image: url(elements/Icons/gear_02.gif);
-}
-
-
-#content {
-	float: none;
-	width: 1004px;
-	height: auto;
-	margin-right: auto;
-	margin-left: auto;
-	background-image: none;
-	border-right-style: none;
-	border-left-style: none;
-	border-top-color: #0CF;
-	border-right-color: #0CF;
-	border-bottom-color: #0CF;
-	border-left-color: #0CF;
-	margin-top: -20px;
-	margin-bottom: 0px;
-	font-size: 16px;
-	border-top-style: none;
-	border-bottom-style: none;
-	clear: none;
-	background-color: #F1F1F1;
-}
-
-#contentL {
-	float: left;
-	width: 10px;
-	margin: 0px;
-	font-size: 16px;
-	text-align: center;
-	display: block;
-	height: auto;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	background-color: #F1F1F1;
-}
-#contentR {
-	margin-left: auto;
-	width: 980px;
-	line-height: 2em;
-	font-size: 16px;
-	height: auto;
-	padding-top: 0px;
-	padding-right: 8px;
-	padding-bottom: 0px;
-	padding-left: 8px;
-	border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	text-align: left;
-	margin-top: 20px;
-	background-color: #F1F1F1;
-	float: none;
-}
-#footer {
-	height: auto;
-	width: 1004px;
-	clear: left;
-	border: thin none #666;
-	background-color: #F60;
-	color: #FFF;
-	text-align: center;
-	line-height: 1.5em;
-	font-size: 14px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: -20px;
-}
-#footer p {
-	margin: 0px;
-	background-color: #F60;
+    line-height: 2em;
+    color: #009;
+    margin: 0;
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	color: #333;
-	margin: 0px;
-	background-color: #F6F6F6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 0px;
+    background-color: #F6F6F6;
 }
+
 a {
-	font-size: 16px;
-	font-style: normal;
-	line-height: 1.5em;
-	color: #060;
-	text-decoration: none;
-}
-a:link {
-	font-size: 16px;
-	font-style: normal;
-	line-height: 1.5em;
-	color: #FFF;
-	font-weight: bold;
-}
-a:visited {
-	color: #FFF;
-	font-size: 16px;
-	font-weight: bold;
-}
-a:hover {
-	font-weight: bolder;
-	color: #FF0;
-	font-size: 16px;
-	text-align: center;
-}
-#header table {
-	border-top-width: 0px;
-	border-right-width: 0px;
-	border-bottom-width: 0px;
-	border-left-width: 0px;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: none;
-	border-left-style: none;
-	letter-spacing: normal;
-	text-align: center;
-	vertical-align: middle;
-	word-spacing: normal;
-	display: table;
-	background-color: #FFF;
-}
-#content #contentR table {
-	font-size: large;
-	line-height: 2em;
-	margin: 0px;
-	vertical-align: baseline;
-	text-align: center;
-}
-#content #contentR h4 {
-	color: #00C;
-	background-image: url(elements/Line/line18.gif);
-	background-position: 50px 10px;
-	line-height: 2em;
-}
-#content #contentL a {
-	color: #006;
-}
-#content #contentL a:link {
-	color: #009;
-}
-#content #contentL a:visited {
-	color: #009;
-}
-#content #contentL a:hover {
-	color: #f9c;
+    font-size: 16px;
+    font-style: normal;
+    /*line-height: 1.5em;*/
+    color: #060;
+    text-decoration: none;
 }
 
-#content #contentR a: {
-	color: #006;
+    a:link {
+        font-size: 16px;
+        font-style: normal;
+        /*line-height: 1.5em;*/
+        color: #FFF;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    a:hover {
+        font-weight: bolder;
+        color: #FF0;
+        font-size: 16px;
+        text-decoration: none;
+        /*text-align: center;*/
+    }
+
+
+/* Add by Tom Liao */
+.container-header {
+    height: 55px;
+    background-color: #F60;
 }
 
-#content #contentR a:link {
-	color: #009;
-	font-size: 14px;
+.navbar-brand {
+    display: block;
+    float: none;
+    height: auto;
+    padding: 18px;
 }
 
-#content #contentR a:visited {
-	color: #009;
+    .navbar-brand > img {
+        max-width: 260px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+.nav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
-#content #contentR a:hover {
-	color: #f9c;
+    .nav > li > a {
+        color: #f0f0f0;
+    }
+
+        .nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus {
+            /*color: #c0c0c0;*/
+            color: #FF0;
+            background-color: transparent;
+        }
+
+.navbar-toggle .icon-bar {
+    background-color: #F1F1F1;
 }
 
-#header a: {
-	color: #006;
-}
-#header a:link {
-	color: #009;
-}
-#header a:visited {
-	color: #999;
-}
-#header a:hover {
-	color: #f9c;
+.navbar .navbar-nav {
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    /*height: 55px;*/
+    background-color: #F60;
 }
 
-	
-h4 {
-	background-image: url(elements/Line/line18.gif);
-	background-repeat: repeat-x;
-	background-position: bottom;
-	line-height: 4em;
-	color: #009;
+.menuItem {
+    height: 55px;
+    background-color: #F60;
 }
-.highlight {
-	background-color: #FF6;
+
+.navbar .navbar-collapse {
+    text-align: center;
 }
-.highblue {
-	background-color: #006;
+
+.logo-sm {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Handwriting';
+    text-align: left;
+    text-decoration: none;
+    margin: 0;
 }
-#content #contentR center h1 {
-	line-height: normal;
-	margin: 20px;
+
+.subject-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 1px;
 }
+
+.subject-info {
+    font-size: 1.2em;
+    /*font-style: italic;*/
+    margin-bottom: 4px;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: center;
+    background-color: #F60;
+}
+/* End (Tom Liao)*/
